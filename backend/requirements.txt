@@ -1,0 +1,40 @@
+# Core
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.0
+pydantic-settings==2.2.0
+
+# Database
+sqlalchemy==2.0.25
+clickhouse-driver==0.2.10
+
+# Embeddings & LLM (lightweight fallback versions)
+numpy==1.26.4
+#anthropic==0.21.0
+anthropic>=0.25.0
+
+openai==1.12.0
+google-generativeai==0.3.0
+
+# Task queue
+celery==5.3.6
+redis==5.0.1
+
+# Utils
+python-multipart==0.0.6
+aiofiles==23.2.1
+tenacity==8.2.3
+python-dotenv==1.0.0
+PyPDF2==3.0.1
+
+# Observability
+prometheus-client==0.20.0
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.2
+httpx==0.26.0
+
+# Dev
+black==24.1.1
+ruff==0.2.2
